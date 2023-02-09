@@ -20,6 +20,7 @@
 }
 
 body {
+  position: relative;
   height: 98vh;
   background-image: url(urso.jpg);
   background-repeat: no-repeat;
@@ -27,6 +28,12 @@ body {
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
+}
+
+/* Responsivo para tablet */
+
+@media screen and (max-width: 768px) {
+  
 }
 
 /* cabecalho */
@@ -149,9 +156,24 @@ main .coracoes {
   margin: 0;
 }
 
-main .principal {
+div.video {
+  display: inline-block;
+  background-color: rgba(128, 128, 128, 0);
   width: auto;
-  height: 68.5vh;
+  height: 750px;
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  padding-bottom: 1%;
+  position: relative;
 }
 
+div.video1 > iframe#video1 {
+  display: block;
+  position: absolute;
+}
+
+div.video2 > iframe#video2 {
+  display: block;
+  margin: auto;
+}
 
