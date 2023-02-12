@@ -43,16 +43,16 @@ body header .cabecario  {
   }
   
 body header .cabecario p {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 body header .cabecario p#remetente {
-  font-size: 10px;
-  text-align: left;
+  font-size: 13px;
+  text-align: justify;
 }
 
 body header .cabecario p#destinatario {
-  font-size: 10px;
+  font-size: 13px;
   text-align: left;
 }
 
@@ -70,13 +70,34 @@ body header .tituloprincipal h1 {
 body header .coracaopulsante {
   display: flex;
   background: rgba(0, 0, 0, 0);
-  align-items: center;
+  align-items: end;
   justify-content: right;
   height: 127px;
   width: 300px;
   padding-top: 50px;
   margin-left: auto;
-  margin: -25px 29px 0 0;
+  margin: -25px 50px 0 0;
+}
+
+body main div.video {
+  display: inline-block;
+  background-color: rgba(128, 128, 128, 0);
+  width: 168px;
+  height: 750px;
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  padding-bottom: 1%;
+  position: relative;
+}
+
+body main div.video iframe#video1 {
+  display: inline-block;
+  width: 27.7em
+}
+
+body main div.video iframe#video2 {
+  display: inline-block;
+  width: 27.7em;
 }
 
 
