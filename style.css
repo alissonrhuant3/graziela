@@ -100,8 +100,10 @@ body main div.video iframe#video2 {
   width: 27.7em;
 }
 
-
-
+body main div.video iframe#video3 {
+  display: inline-block;
+  width: 27.7em;
+}
 
 }
 
@@ -223,6 +225,27 @@ main .coracoes {
   width: auto;
   background-color: rgba(0, 255, 255, 0);
   margin: 0;
+}
+
+div.textoprincipal {
+  display: flex;
+  border: 10px ridge black;
+  width: auto;
+  height: 600px;
+}
+
+div.textoprincipal .texto01 {
+  display: inline-block;
+  border: 10px solid red;
+  width: 50%;
+  height: 580px;
+}
+
+div.textoprincipal .texto02 {
+  display: inline-block;
+  border: 10px solid red;
+  width: 50%;
+  height: 580px;
 }
 
 div.video {
