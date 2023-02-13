@@ -19,6 +19,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Pacifico' ;
+  src: url('pacificoregular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   position: relative;
   height: 98vh;
@@ -239,6 +246,12 @@ div.textoprincipal .texto01 {
   border: 10px solid red;
   width: 50%;
   height: 580px;
+}
+
+div.textoprincipal .texto01 > p {
+  font-size: 20px;
+  font-family: 'pacifico';
+  margin: auto;
 }
 
 div.textoprincipal .texto02 {
