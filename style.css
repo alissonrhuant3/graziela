@@ -86,6 +86,24 @@ body header .coracaopulsante {
   margin: -25px 50px 0 0;
 }
 
+body main div.textoprincipal .texto01 {
+  display: inline-block;
+  border: 10px solid red;
+  width: 100%;
+  height: 580px;
+}
+
+body main div.textoprincipal .texto01 > p {
+  font-size: 13.4px;
+  margin: auto;
+}
+
+body main div.textoprincipal .texto02 {
+  border: 0 ;
+  width: 0;
+  height: 0;
+}
+
 body main div.video {
   display: inline-block;
   background-color: rgba(128, 128, 128, 0);
