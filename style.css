@@ -98,7 +98,11 @@ body main div.textoprincipal .texto01 > p {
   margin: 1px;
 }
 
-
+body main div.textoprincipal .texto02 {
+  border: 0 ;
+  width: 0;
+  height: 0;
+}
 
 body main div.video {
   display: inline-block;
@@ -113,17 +117,17 @@ body main div.video {
 
 body main div.video iframe#video1 {
   display: inline-block;
-  width: 27.7em
+  width: 22.50em;
 }
 
 body main div.video iframe#video2 {
   display: inline-block;
-  width: 27.7em;
+  width: 22.50em;
 }
 
 body main div.video iframe#video3 {
   display: inline-block;
-  width: 27.7em;
+  width: 22.50em;
 }
 
 }
