@@ -251,10 +251,13 @@ div.textoprincipal .texto01 {
 div.textoprincipal .texto01 > p {
   font-size: 20px;
   font-family: 'pacifico';
-  margin: auto;
+  margin: -5px 5px -15px ;
 }
 
 div.textoprincipal .texto02 {
+  background-image: url(https://cdn.pensador.com/img/imagens/12/de/12_declarac_a_o_de_amor_o_pensador_png.jpg?auto_optimize=low&width=655);
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: inline-block;
   border: 10px solid red;
   width: 50%;
