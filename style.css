@@ -98,11 +98,7 @@ body main div.textoprincipal .texto01 > p {
   margin: 1px;
 }
 
-body main div.textoprincipal .texto02 {
-  border: 0 ;
-  width: 0;
-  height: 0;
-}
+
 
 body main div.video {
   display: inline-block;
